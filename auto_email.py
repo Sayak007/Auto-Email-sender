@@ -1,17 +1,21 @@
 import pandas as pd
 import smtplib
 
+#sender details
 your_name = input("Enter your name:")
 your_email = input("Enter your Email:")
 your_password = input("Enter password:")
 
+#setting up the connection
 server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
 server.ehlo()
 server.login(your_email, your_password)
 
+#file information
 file = input("Enter filename")
 email_list = pd.read_excel(file)
 
+#getting all the email infos
 all_names = email_list['Name']
 all_emails = email_list['Email']
 all_subjects = email_list['Subject']
