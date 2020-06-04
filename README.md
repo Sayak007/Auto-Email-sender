@@ -11,7 +11,7 @@ one must open CMD and run the following commands
 ### pip install xlrd
 
 ## To establish a connection without any fault one need to turn this on
-![image](https://github.com/Sayak007/Auto-Email-sender/blob/master/Connection gmail.jpg)
+![image](https://github.com/Sayak007/Auto-Email-sender/blob/master/Connection%20gmail.jpg)
 ## Sample Excel File
 ![image](https://github.com/Sayak007/Auto-Email-sender/blob/master/Excel.jpg)
 ## Sample Email
